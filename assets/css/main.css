@@ -1,0 +1,322 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.hero {
+    background: url(../../assets/images/hero.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 190px 0 190px 0;
+    border-bottom: solid 15px #E8DBDB;
+}
+.hero h2 {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 20px;
+}
+.hero p {
+    color: #FFF;
+}
+.navbar {
+    background-color: #E8DBDB!important;
+    font-family: 'Alata', sans-serif;
+}
+.navbar a {
+    color: #000!important;
+    font-size: 13px;
+}
+.cara1 {
+    height: auto;
+    background: url(../../assets/images/cara1.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+    transition: all 0.10s ease;
+}
+.cara1:hover {
+    height: auto;
+    background: url(../../assets/images/cara1-color.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+}
+.cara2 {
+    height: auto;
+    background: url(../../assets/images/cara2.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+    transition: all 0.10s ease;
+}
+.cara2:hover {
+    height: auto;
+    background: url(../../assets/images/cara-color2.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+}
+.cara3 {
+    height: auto;
+    background: url(../../assets/images/cara3.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+    transition: all 0.10s ease;
+}
+.cara3:hover {
+    height: auto;
+    background: url(../../assets/images/foto-color3.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 370px 0 370px 0;
+}
+.logos {
+    text-align: center;
+    border-bottom: solid 10px #E8DBDB;
+    height: auto;
+    padding: 5px 0 5px 0;
+    margin-bottom: 50px;
+}
+.logos img {
+    height: auto;
+    width: 55%;
+}
+.preFooter {
+    background: url(../../assets/images/hero-prefooter.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 60px 0;
+    color: #FFF;
+}
+.preFooter h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+.preFooter p {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+.redes {
+    font-size: 20px;
+}
+.callToAction {
+    background-color: #F8C4C1;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    font-family: 'Alata', sans-serif;
+    padding: 10px 45px 10px 45px;
+}
+.cuadroTranparente {
+    background-color: rgba(0,0,0,0.7);
+    color: #FFF;
+    text-align: center;
+    padding: 30px;
+    border-top: solid 10px #F8C4C1;
+    position: absolute;
+    bottom: 0;
+}
+.cuadroTranparente h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+.cuadroTranparente p {
+    font-size: 14px;
+}
+.masServicios {
+    height: auto;
+    padding: 100px 0 50px 0;
+}
+.masServicios h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    border-top: solid 10px #F8C4C1;
+    width: 85%;
+    padding-top: 20px;
+}
+.masServicios p {
+    font-family: 'Alata', sans-serif; 
+    color: grey;
+    line-height: 33px;
+}
+.testimonios {
+    text-align: center;
+    height: auto;
+    padding: 20px 0 70px 0;
+}
+.testimonios h2 {
+    color: #98716F;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.testimonios h3 {
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    color: #98716F;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 30px;
+}
+.testimonios p {
+    padding: 10px 0 10px 0;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    color: grey;
+    font-style: italic;
+}
+.footer {
+    height: auto;
+    background-color: #E8DBDB;
+    padding: 30px 0 10px 0;
+}
+.footer p {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+.cuadroForm {
+    background-color: rgba(0,0,0,0.7);
+    height: auto;
+    padding: 20px 10px 20px 10px;
+}
+.enviarConsulta {
+    background-color: #F8C4C1;
+    color: #000;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    height: 40px;
+}
+.cuadroForm input {
+    height: 70px;
+    border-radius: 0;
+}
+.internas {
+    background-color: #F4EFEF;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.nati {
+    margin: 0;
+    padding: 0;
+}
+.nati img {
+    height: auto;
+    width: 100%;
+}
+.info {
+    height: auto;
+    padding: 40px;
+}
+.info h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.info article p {
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    color: #7B7878;
+    line-height: 33px;
+}
+.card {
+    background-color: #F4EFEF;
+    border: 0;
+    margin-bottom: 10px;
+}
+.card button {
+    color: #98716F;
+}
+.card button:hover {
+    text-decoration: none;
+    color: #000;
+}
+.internas h2 {
+    color: #98716F;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+.internas p {
+    color: #000;
+    line-height: 33px;
+    font-size: 16px;
+}
+.cita p {
+    font-style: italic;
+    color: #333; 
+}
